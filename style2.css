@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: darkgray;
+}
+.container{
+    width: 80%;
+    margin: 0;
+}
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card{
+    width: 20%;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}

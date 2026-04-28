@@ -5,15 +5,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    height: 100vh;
-    display: flex;
+    height: 140vh;
     justify-content: center;
     align-items: center;
     background: linear-gradient(135deg, #aec4ec,  #03176e);
 }
 .perfil{
     background-color: #fff;
-    padding: 60px;
+    padding:60px;
     width: 400px;
     text-align: center;
     border-radius: 50px;
@@ -46,4 +45,26 @@ body{
     font-size: 14px;
     color: #2200ff;
     word-break: break-all;
+}
+.selection{
+    padding: 60;
+    margin: 15px;
+    background-color: rgb(255, 255, 255);
+    width: 650px;
+    height: 300px;
+    display: flex;
+    justify-content: space;
+    align-items: center;
+}
+.filha{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(223, 234, 247);
+    border: 1px solid rgb(6, 22, 117);
+}
+.filha h2{
+     text-align: center;
+}
+.filha p{
+     text-align: center;
 }
